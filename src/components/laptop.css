@@ -1,0 +1,9 @@
+/* created new css file and to use file need to import in the component */
+.table-container{
+    background-color: #1a1c1e;
+        padding: 10px; 
+        margin: 20px 0;
+        border: 1px solid #ccc; 
+        border-radius: 5px;
+        width: 50%
+}

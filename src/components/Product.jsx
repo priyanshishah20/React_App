@@ -1,13 +1,12 @@
 import React from 'react'
 
 // props
-const Product = ({phone, brand, price, ram}) => {
+const Product = ({phone, brand, price}) => {
   return (
     <div>
         <p>Phone: {phone}</p>
         <p>Brand: {brand}</p>
         <p>Price: {price}</p>
-        <p>ram: {ram}</p>
     </div>
   )
 }
