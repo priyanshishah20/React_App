@@ -10,6 +10,19 @@ h2 {
   color: #a95a5a;
 }
 
-small {
+.comp, small {
   color: #8787e1;
+}
+
+.btn{
+  display: inline-block;
+  background: #c12828;
+  color: wheat;
+  padding: 0.35rem 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+.btn:first-of-type{
+  margin-left: 0;
 }
