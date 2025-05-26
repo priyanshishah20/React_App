@@ -4,6 +4,7 @@ import Product from './components/Product'
 import Ternary from './components/Ternary'
 import Laptop from './components/Laptop'
 import Events from './components/Events'
+import Counter from './components/Counter'
 
 const App = () => {
 
@@ -37,6 +38,9 @@ const App = () => {
       <div>
         <Events />
       </div>
+
+      {/* UseState */}
+      <Counter />
     </>
   )
 }
