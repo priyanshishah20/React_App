@@ -9,6 +9,9 @@ h1{
 h2 {
   color: #a95a5a;
 }
+h4{
+  color: #6cb12f;
+}
 
 .comp, small {
   color: #8787e1;
@@ -25,6 +28,9 @@ h2 {
 }
 .btn:first-of-type{
   margin-left: 0;
+}
+.hvr-btn{
+  background-color: #5d813d;
 }
 .asc-btn{
   background-color: #5d39b5;
