@@ -13,6 +13,11 @@ h4{
   color: #6cb12f;
 }
 
+h2 span{
+  font-size: 12px;
+  color: #dd9797;
+}
+
 .comp, small {
   color: #8787e1;
 }

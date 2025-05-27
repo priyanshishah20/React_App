@@ -5,6 +5,8 @@ import Ternary from './components/Ternary'
 import Laptop from './components/Laptop'
 import Events from './components/Events'
 import Counter from './components/Counter'
+import ShowProduct from './components/ShowProduct'
+import FilterProduct from './components/FilterProduct'
 
 const App = () => {
 
@@ -41,6 +43,12 @@ const App = () => {
 
       {/* UseState */}
       <Counter />
+
+      {/* Map */}
+      <ShowProduct/>
+
+      {/* Filter */}
+      <FilterProduct/>
     </>
   )
 }
