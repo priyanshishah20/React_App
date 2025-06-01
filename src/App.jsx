@@ -8,6 +8,7 @@ import Counter from './components/Counter'
 import ShowProduct from './components/ShowProduct'
 import FilterProduct from './components/FilterProduct'
 import FetchDataApi from './components/FetchDataApi'
+import Form from './components/Form'
 
 const App = () => {
 
@@ -53,6 +54,9 @@ const App = () => {
 
       {/* Fetch data from API */}
       <FetchDataApi/>
+
+      {/* Form */}
+      <Form/>
     </>
   )
 }
