@@ -10,7 +10,7 @@ const FilterProduct = () => {
     ];
 
     const filteredData = products.filter((data)=> data.category == 'mobile');
-    console.log(filteredData);
+    //console.log(filteredData);
   return (
     <>
     <h2>Filter Method <span>(FilterProduct)</span></h2>
