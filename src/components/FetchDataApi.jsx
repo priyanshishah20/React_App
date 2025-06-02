@@ -9,7 +9,7 @@ const FetchDataApi = () => {
             const data = await api.json();
 
             setapiData(data);
-            console.log('my data', data);
+            //console.log('my data', data);
         }
         fetchData();
     }, [])

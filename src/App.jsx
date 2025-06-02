@@ -1,5 +1,5 @@
 import Admin from './components/Admin'
-import { Test } from './components/Test'
+import { Test } from './components/Test' // rafc
 import Product from './components/Product'
 import Ternary from './components/Ternary'
 import Laptop from './components/Laptop'
@@ -9,6 +9,7 @@ import ShowProduct from './components/ShowProduct'
 import FilterProduct from './components/FilterProduct'
 import FetchDataApi from './components/FetchDataApi'
 import Form from './components/Form'
+import MultiInput from './components/MultiInput'
 
 const App = () => {
 
@@ -57,6 +58,9 @@ const App = () => {
 
       {/* Form */}
       <Form/>
+
+      {/* Multiple Input Form */}
+      <MultiInput/>
     </>
   )
 }

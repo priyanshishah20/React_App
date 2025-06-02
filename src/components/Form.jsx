@@ -6,14 +6,14 @@ const Form = () => {
     const [email, setEmail] = useState('');
 
     const handleSubmit = (e)=> {
-        e.preventDefault();
+        e.preventDefault(); // to prevent page reload
         alert(`Form submitted successfully! 
             Details: ${fName}, ${password}, ${email}`);
         setfName('');
         setPassword('');
         setEmail('');
     }
-
+    
     return (
         <>
             <h2>Form Handling</h2>
@@ -33,7 +33,7 @@ const Form = () => {
                     <input value={email} type="email" placeholder="Enter Email" onChange={(e) => setEmail(e.target.value)} />
                     {/* <p>{email}</p> */}
                 </div>
-                <button type='submit'>Submit</button>
+                <button type='submit' className='btn'>Submit</button>
             </form>
         </>
     )
