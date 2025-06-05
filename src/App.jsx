@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Product from './pages/Product'
 import Contact from './pages/Contact'
+import CourseDetails from './pages/CourseDetails'
 
 
 const App = () => {
@@ -12,11 +13,12 @@ const App = () => {
     <>
     <Router>
       <Routes>
+        <Route path="/learning" element={<Learning/>} />
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
-        <Route path="/product" element={<Product/>} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/learning" element={<Learning/>} />
+        <Route path="/courses" element={<Product/>} />
+        <Route path="/course/:id" element={<CourseDetails/>} />
       </Routes>
     </Router>
     </>
