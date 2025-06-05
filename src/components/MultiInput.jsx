@@ -24,7 +24,7 @@ const MultiInput = () => {
          
         setformData({
         fname:'',
-        pass:'',
+        password:'',
         email:'',
         age:'',
         address:'',
@@ -42,8 +42,8 @@ const MultiInput = () => {
                     <p>{formData.fname}</p>
                 </div>
                 <div style={{ marginBottom: '10px' }}>
-                    <label htmlFor="pass">Password: </label>
-                    <input value={formData.pass} name="pass" type="password" placeholder="Enter Password" onChange={onChangehandler} />
+                    <label htmlFor="password">Password: </label>
+                    <input value={formData.password} name="password" type="password" placeholder="Enter Password" onChange={onChangehandler} />
                     {/* <p>{password}</p> */}
                 </div>
                 <div style={{ marginBottom: '10px' }}>

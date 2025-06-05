@@ -24,7 +24,7 @@ const Form = () => {
                     {/* <p>{fName}</p> */}
                 </div>
                 <div style={{ marginBottom: '10px' }}>
-                    <label htmlFor="pass">Password: </label>
+                    <label htmlFor="password">Password: </label>
                     <input value={password} type="password" placeholder="Enter Password" onChange={(e) => setPassword(e.target.value)} />
                     {/* <p>{password}</p> */}
                 </div>
