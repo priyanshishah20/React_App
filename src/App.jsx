@@ -1,5 +1,5 @@
 import React from 'react'
-import Learning from './Learning'
+import Learning from './components/Learning'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -18,7 +18,7 @@ const App = () => {
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/courses" element={<Product/>} />
-        <Route path="/course/:id" element={<CourseDetails/>} />
+        <Route path="/courses/:id" element={<CourseDetails/>} />
       </Routes>
     </Router>
     </>

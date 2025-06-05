@@ -1,15 +1,15 @@
-import Admin from './components/Admin'
-import { Test } from './components/Test' // rafc
-import Product from './components/Product'
-import Ternary from './components/Ternary'
-import Laptop from './components/Laptop'
-import Events from './components/Events'
-import Counter from './components/Counter'
-import ShowProduct from './components/ShowProduct'
-import FilterProduct from './components/FilterProduct'
-import FetchDataApi from './components/FetchDataApi'
-import Form from './components/Form'
-import MultiInput from './components/MultiInput'
+import Admin from './Admin'
+import { Test } from './Test' // rafc
+import Product from './Product'
+import Ternary from './Ternary'
+import Laptop from './Laptop'
+import Events from './Events'
+import Counter from './Counter'
+import ShowProduct from './ShowProduct'
+import FilterProduct from './FilterProduct'
+import FetchDataApi from './FetchDataApi'
+import Form from './Form'
+import MultiInput from './MultiInput'
 
 // These are the learning components and the files were imported on App.jsx
 // not using as implementing react router dom
