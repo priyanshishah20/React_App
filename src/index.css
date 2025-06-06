@@ -37,6 +37,7 @@ h2 span{
 .btn a{
   color: white;
 }
+
 .hvr-btn{
   background-color: #5d813d;
 }
@@ -45,4 +46,15 @@ h2 span{
 }
 .dec-btn{
   background-color: #c1ae28;
+}
+ul{
+  padding: 0;
+}
+li{
+  list-style: none;
+  padding-block: 0.25rem;
+}
+li a{
+  color: #bb5353;
+  font-size: 1.1rem;
 }

@@ -11,14 +11,12 @@ const Product = () => {
 
   return (
     <>
-    <div>Courses</div>
+    <h4>Course Details</h4>
     <div>
       <ul>
-        {arr.map((data)=> <div key={data.id}>
-          <li>
-            <Link to={`/courses/${data.id}`}>{data.course_name}</Link>
-          </li>
-        </div>)}
+        {arr.map((data)=> <li key={data.id}>
+          <Link to={`/courses/${data.id}`}>{data.course_name}</Link>
+        </li>)}
       </ul>
     </div>
     </>
