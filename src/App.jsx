@@ -9,22 +9,26 @@ import CourseDetails from './pages/CourseDetails'
 import Navbar from './components/Navbar'
 import Dashboard from './pages/Dashboard'
 import Profile from './pages/Profile'
+import IndianGov from './Home/IndianGov'
 
 
 const App = () => {
+  const money = 1000;
+
   return (
     <>
     <Router>
       <Navbar/>
       <Routes>
         <Route path="/learning" element={<Learning/>} />
-        <Route path="/" element={<Home/>} />
+        <Route path="/" element={<IndianGov money={money} />} />
+        {/* <Route path="/" element={<Home/>} /> */}
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/about" element={<About/>} />
-        <Route path="/contact" element={<Contact/>} />
-        <Route path="/courses" element={<Product/>} />
-        <Route path="/courses/:id" element={<CourseDetails/>} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/courses" element={<Product />} />
+        <Route path="/courses/:id" element={<CourseDetails />} />
       </Routes>
     </Router>
     </>
