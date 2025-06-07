@@ -13,6 +13,7 @@ const About = () => {
   }
   return (
     <div>
+      <h2>About Section</h2>
       <button onClick={toHome} className='btn'>Go To Home</button>
       <button onClick={goBack} className='btn asc-btn'>Go Back</button>
     </div>

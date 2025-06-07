@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+.navbar a:hover {
+    background-color: rgb(221, 203, 36);
+    color: black;
+}
+
+.loginbtn {
+    background: #5dc3b9;
+}

@@ -11,7 +11,7 @@ const Product = () => {
 
   return (
     <>
-    <h4>Course Details</h4>
+    <h2>Course Section</h2>
     <div>
       <ul>
         {arr.map((data)=> <li key={data.id}>
