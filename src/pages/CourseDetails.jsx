@@ -18,7 +18,7 @@ const CourseDetails = () => {
 
   return (
     <>
-      <p>Approach 1 with filter</p>
+      <p className='sub-text'>Approach 1 with filter</p>
       <div>Course ID: {course_details[0].id}</div>
       <div>Course Name: {course_details[0].course_name}</div>
       {location.pathname != `/courses/${course_details[0].id}` && <>
@@ -26,7 +26,7 @@ const CourseDetails = () => {
       <div>Course Duration: {course_details[0].duration}</div>
       </>}
 
-      <p>Approach 2 with map</p>
+      <p className='sub-text'>Approach 2 with map</p>
       {course_details.map((data) => <div key={data.id}>
         <p>{data.id}</p>
         <div>Course ID: {data.id}</div>
