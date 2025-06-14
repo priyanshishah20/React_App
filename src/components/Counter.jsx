@@ -11,10 +11,14 @@ const Counter = () => {
   const [counter, setCounter] = useState(0);
 
   function IncCounter() {
-    setCounter(counter + 1);
+    if(counter < 20) {
+      setCounter(counter + 1);
+    }
   }
   function DecCounter() {
-    setCounter(counter - 1);
+    if(counter > 0) {
+      setCounter(counter - 1);
+    }
   }
 
   useEffect(() => {
